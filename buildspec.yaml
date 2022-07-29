@@ -16,6 +16,9 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
+      - ls
+      - pwd
+      - ls
 artifacts:
   files:
     - "**/*"
